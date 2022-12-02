@@ -1,3 +1,27 @@
+//core:
+//input of key and data
+//ascii decoding mechanism
+//output of decrypted data
+//recognize spaces
+
+//extra:
+// read key from file w history?
+//include a logger
+//handle non ascii bit strings
+//validate input(make sure its a bit string or ignore parts that arent 1 0 or space)
+//do this is in a different language, have a gui, use csharp?
+//export in a more compact format thats still unreadable.
+//encode first or decode?
+//make a loop
+//write in assembly
+//words to sentences
+//pad with zeros, otherwise may not decrypt properly.
+//output letters instead as an option
+//add byte validation to limit size
+//if key is a int, not sure what xor value returns
+//the reverse of an xor is an xor
+//(a XOR b)XOR b = a
+//11111111 not ok as input
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
