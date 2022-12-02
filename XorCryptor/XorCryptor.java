@@ -27,7 +27,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class XorCryptor {
-    Scanner in;
+    private Scanner in;
     public XorCryptor(){
         in = new Scanner(System.in);
     }
