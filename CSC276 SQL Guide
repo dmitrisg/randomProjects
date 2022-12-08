@@ -1,11 +1,11 @@
-How to Save Data From Your Game to the SQL Server.
+#How to Save Data From Your Game to the SQL Server.
 
-Prerequisites:
-- Be on a campus desktop (or connect to one remotely).
-- Have MySql open. (Use AJApps.)
-- Have your code open on the same desktop.
+#Prerequisites:
+  1. Be on a campus desktop (or connect to one remotely).
+  2. Have MySql open. (Use AJApps.)
+  3. Have your code open on the same desktop.
 
-1. Connect to the database in MySQL.
+##1. Connect to the database in MySQL.
 This way you can look at your records and test commands directly, without having to use Java.
 a. Open MySql. 
 b. For the name, enter anything.
