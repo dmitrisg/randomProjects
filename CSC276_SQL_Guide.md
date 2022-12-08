@@ -72,7 +72,7 @@ I'm sure this can all be done through Java, telekinesis, x86 assembly, etc. but 
 c. Connect the JAR to your project by adding it to the classpath. Look up how do this. This link gives instructions for Eclipse users: https://www.geeksforgeeks.org/how-to-add-jar-file-to-classpath-in-java/. 
 
 **4. Set up a SQL connection in your Java project. (If you have made it this far without commiting suicide, consider doing it now.)**
-
+    
     a. Download demoRdb.java from Canvas. This file will serve as a guideline. I suggest copy-and-pasting the code into a new class called something like "SqlConnector".
     b. Edit the code to be about your database. I have not fully figured this out. Unless you have previous experience with this process, trying to a send a command through to the server will probably take you a while. (I have spent several hours on it so far.) 
     c. By the end, you should be able to record the player names, turn scores, and total scores during the game and insert them into the DB using the SQLConnector. 
