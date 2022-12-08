@@ -4,9 +4,11 @@
   1. Be on a campus desktop (or connect to one remotely).
 
 **1. Connect to the server in MySQLWorkbench.**
+
   a. Open MySqlWorkbench, using AJ Apps.
   
   b. Click the little plus sign next to MySQL Connections. This opens the Setup New Connection window.
+  
   c. For Connection Name, enter whatever you want to call it.
   d. For hostname, enter cscmysql.lemoyne.edu.
   e. For username, enter your username from the 2022_MySQL_Instructions.pdf on Canvas. This should be your last name.
