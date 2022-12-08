@@ -20,10 +20,11 @@ I'm sure this can all be done through Java, telekinesis, x86 assembly, etc. but 
 
     a. After step 1i, you should see a workspace with panels including an Output bar on the bottom and a Navigator on the left side. In the center should be a space to enter text, labeled Query 1. If you do not see Query 1 or have turned it off by accident, click the symbol directly below File in the top left. This will open a new tab.
     b. Create your database. Enter this code: 
+  ```
   drop database if exists game276[username]; -- replace [username] with your username. This line deletes the DB by that name if one already exists.
   create database game276[username]; -- this creates a new DB.
   use game276[username]; -- makes sure the rest of commands will be executed in this DB.
-  
+  ```
   Note: do not run the code yet.
   
     c. Create some tables. Enter this code:
