@@ -5,23 +5,23 @@
 
 **1. Connect to the server in MySQLWorkbench.**
 
-  a. Open MySqlWorkbench, using AJ Apps.
+    a. Open MySqlWorkbench, using AJ Apps.
   
-  b. Click the little plus sign next to MySQL Connections. This opens the Setup New Connection window.
+    b. Click the little plus sign next to MySQL Connections. This opens the Setup New Connection window.
   
-  c. For Connection Name, enter whatever you want to call it.
+    c. For Connection Name, enter whatever you want to call it.
   
-  d. For hostname, enter cscmysql.lemoyne.edu.
+    d. For hostname, enter cscmysql.lemoyne.edu.
   
-  e. For username, enter your username from the 2022_MySQL_Instructions.pdf on Canvas. This should be your last name.
+    e. For username, enter your username from the 2022_MySQL_Instructions.pdf on Canvas. This should be your last name.
   
-  f. Click "Store In Vault..." next to Password. This opens the Store Password For Connection window. Enter your password. You can find the password next to your username on the pdf. This should be your first name.
+    f. Click "Store In Vault..." next to Password. This opens the Store Password For Connection window. Enter your password. You can find the password next to your username on the pdf. This should be your first name.
   
-  g. Do not modify any other fields.  
+    g. Do not modify any other fields.  
  
-  h. Click OK at the bottom.
+    h. Click OK at the bottom.
   
-  i. Now you will see your connection under MySQL Connections. Double click it.
+    i. Now you will see your connection under MySQL Connections. Double click it.
   
 **2. Set up your database.**
 I'm sure this can all be done through Java, telekinesis, x86 assembly, etc. but using MySQLWorkbench is much easier.
