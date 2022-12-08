@@ -16,7 +16,7 @@
     i. Now you will see your connection under MySQL Connections. Double click it.
   
 **2. Set up your database.**
-I'm sure this can all be done through Java, telekinesis, x86 assembly, etc. but using MySQLWorkbench is much easier.
+I'm sure this can all be done through Java, telekinesis, x86 assembly, etc. but using MySQLWorkbench is much easier. Note: I present one of many ways to set up and test your database. My code should give you an idea of what the process is like, but you should be able to write something similar on your own. Referencing the files in Rdb-create.zip on Canvas should help. I do not authorize the direct copying of my code.
 
     a. After step 1i, you should see a workspace with panels including an Output bar on the bottom and a Navigator on the left side. In the center should be a space to enter text, labeled Query 1. If you do not see Query 1 or have turned it off by accident, click the symbol directly below File in the top left. This will open a new tab.
     b. Creating your database. Enter the code below. Note: do not run it yet.
@@ -57,7 +57,7 @@ I'm sure this can all be done through Java, telekinesis, x86 assembly, etc. but 
         totalScore = 10,
         gameId = (SELECT MAX(id) FROM Game); -- this sets the gameId to the whatever the highest id in Game is.
 ```
-    (These are more or less the same commands you will need to execute through your Java game later on.) Run the script.
+    Run the script.
     e. Retrieving your new records. If you successfully inserted the records, you should be able to fetch them. Erase your code again and run the script below.
 ```
     use game276[username];
@@ -72,7 +72,27 @@ I'm sure this can all be done through Java, telekinesis, x86 assembly, etc. but 
 c. Connect the JAR to your project by adding it to the classpath. Look up how do this. This link gives instructions for Eclipse users: https://www.geeksforgeeks.org/how-to-add-jar-file-to-classpath-in-java/. 
 
 **4. Set up a SQL connection in your Java project. (If you have made it this far without commiting suicide, consider doing it now.)**
-    a. Download demoRdb.java from Canvas. This file will be a guideline for 
+    a. Download demoRdb.java from Canvas. This file will serve as a guideline. I suggest copy-and-pasting the code into a new class called something like "SqlConnector".
+    b. Edit the code to be about your database. I have not fully figured this out. Unless you have previous experience with this process, trying to a send a command through to the server will probably take you a while. (I have spent several hours on it so far.) 
+    c. By the end, you should be able to record the player names, turn scores, and total scores during the game and insert them into the DB using the SQLConnector. 
+    
+Suggestions for Step 4. 
 
-
+    1. Test incrementally. For example,
+        Compile,
+        Establish a connection with the server,
+        Send a simple insert command for the Game table, using hard-coded values, 
+        Send an insert command for the Game table, but using variables,
+        Insert into the Score table,
+        Connect your SQL class to the model,
+        Etc.        
+        
+    2. Take some time to understand the demoRdb.java code, it should save you a lot of debugging time in the long run. (Personally, I am too lazy to do this, but it would probably help.)
+    
+    3. Convert to a major world religion.
+    4. Play Half-Life.
+    5. Download a new IDE. 
+    6. Switch to a major in Business Analytics.
+    7. Learn about reversible computing (i think its cool).
+    8. Watch Blade Runner 2049. 
 
