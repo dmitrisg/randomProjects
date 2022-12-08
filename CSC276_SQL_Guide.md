@@ -1,4 +1,4 @@
-**How to Save Data From Your Game to the SQL Server.**
+#**How to Save Data From Your Game to the SQL Server.**
 
 **Prerequisites:**
   1. Be on a campus desktop (or connect to one remotely).
