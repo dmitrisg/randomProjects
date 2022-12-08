@@ -48,7 +48,7 @@ I'm sure this can all be done through Java, telekinesis, x86 assembly, etc. but 
 ``` 
     If it worked, you will be able to see it in the output tab under your script editor. You should see all the commands you just ran with a green checkmark next to each. You may see the message "Error loading schema content". I'm not sure what it means, but it does not seem to be important. 
     d. Adding some test records. Erase all your previous code from the query. (You just ran it and you don't want to run the same thing twice.) Write:
-    ```
+```
     use game276[username];
     insert into Game (computerName, humanName) VALUES ('x', 'y'); -- this will create a record in the Game table. Note that the id is auto generated, so you do not need to specify what it is.
     insert into Score 
@@ -56,7 +56,7 @@ I'm sure this can all be done through Java, telekinesis, x86 assembly, etc. but 
         turnScore = 7,
         totalScore = 10,
         gameId = (SELECT MAX(id) FROM Game); -- this sets the gameId to the whatever the highest id in Game is.
-  ```
+```
     (These are more or less the same commands you will need to execute through your Java game later on.) Run the script.
     e. Retrieving your new records. If you successfully inserted the records, you should be able to fetch them. Erase your code again.
     ```
