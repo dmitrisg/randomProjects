@@ -58,12 +58,12 @@ I'm sure this can all be done through Java, telekinesis, x86 assembly, etc. but 
         gameId = (SELECT MAX(id) FROM Game); -- this sets the gameId to the whatever the highest id in Game is.
 ```
     (These are more or less the same commands you will need to execute through your Java game later on.) Run the script.
-    e. Retrieving your new records. If you successfully inserted the records, you should be able to fetch them. Erase your code again.
-    ```
+    e. Retrieving your new records. If you successfully inserted the records, you should be able to fetch them. Erase your code again and run the script below.
+```
     use game276[username];
     select * from Game; -- the * means "all".
     select * from Score;
-    ``` 
+``` 
     If all runs correctly, some tabs will pop up with results. One will contain the Game records, and the other will have the Score records.
     
 **3. Set up the SQL driver.**
