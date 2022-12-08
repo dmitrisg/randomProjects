@@ -6,7 +6,6 @@
 **1. Connect to the server in MySQLWorkbench.**
 
   a. Open MySqlWorkbench, using AJ Apps.
-  
   b. Click the little plus sign next to MySQL Connections. This opens the Setup New Connection window.
   
   c. For Connection Name, enter whatever you want to call it.
