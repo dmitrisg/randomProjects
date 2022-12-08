@@ -66,13 +66,13 @@ I'm sure this can all be done through Java, telekinesis, x86 assembly, etc. but 
 ``` 
     If all runs correctly, some tabs will pop up with results. One will contain the Game records, and the other will have the Score records.
     
-**3. Set up the SQL driver.**
-a. Download mysql-connector-java-8.0.21.jar from Canvas.
-b. Connect the jar to your project.
-i. Eclipse instructions
-ii. JGrasp instructions
-iii. Other IDEs
-Idk look it up 
+**3. Connect the library with the SQL related classes.** 
+    a. Download mysql-connector-java-8.0.21.jar from Canvas.
+    b. I don't know if this is necessary, but I put the JAR in my project src folder (in the same directory as my other classes) and extracted it. You probably don't have to do this.
+c. Connect the JAR to your project by adding it to the classpath. Look up how do this. This link gives instructions for Eclipse users: https://www.geeksforgeeks.org/how-to-add-jar-file-to-classpath-in-java/. 
 
-(Note: I am not sure if the location of the jar matters, but mine is in the project's src folder.
+**4. Set up a SQL connection in your Java project. (If you have made it this far without commiting suicide, consider doing it now.)**
+    a. Download demoRdb.java from Canvas. This file will be a guideline for 
+
+
 
