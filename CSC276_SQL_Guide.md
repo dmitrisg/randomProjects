@@ -46,9 +46,7 @@ I'm sure this can all be done through Java, telekinesis, x86 assembly, etc. but 
       ON UPDATE CASCADE);
  
 ```
-  
-
-**2. Set up the SQL driver. **
+**3. Set up the SQL driver. **
 a. Download the jar file [name] from Canvas.
 b. Connect the jar to your project.
 i. Eclipse instructions
